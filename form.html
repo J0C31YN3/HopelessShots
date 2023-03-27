@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>Contact Form</title>
+			
+				<!-- 
+						Final Project, form
+						Your Name: Jocelyne Ronning
+						Today's Date: 10/7/20
+					-->
+				
+		<link rel="stylesheet" href="mainTemplate.css">
+		<link rel="stylesheet" type="text/css" href="register.css">
+		<link rel="stylesheet" type="text/css" href="slide_show.css"/>
+		<script type="text/javascript" src="library_navigate.js"></script>
+		<script type="text/javascript" src="library_fields.js"></script>
+		<script type="text/javascript" src="library_validate.js"></script>
+		<script type="text/javascript" src="library_validate_form.js"></script>
+		<script type="text/javascript" src="register.js"></script>
+	
+	</head>
+
+	<body>
+		<div id="container">
+	
+			<header> 
+					<h1>Contact Me!</h1>
+			</header>    
+					
+			<img
+				class="profile"
+				src="images/profileHope.jpg"
+				alt="Hope"
+				height="15%"
+				width="15%"
+			/>
+					
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>|
+					<li><a href="portfolio.html">Portfolio</a></li>|
+					<li><a href="info.html">Information</a></li>
+				</ul>
+			</nav>
+
+<!--START FORM HERE -->					
+			<form id="registration_form" action="regiater_account.php" method="get"
+				  name="registration_form" class="show">
+					
+				<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name">
+					<span id="first_name_error">&nbsp;</span><br>
+					
+				<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name">
+					<span id="last_name_error">&nbsp;</span><br>
+					
+				<label for="email">E-Mail:</label>
+					<input type="text" name="email" id="email" placeholder="example@mail.com">
+					<span id="email_error">&nbsp;</span><br>
+					
+				<label for="phone">Phone Number:</label>
+					<input type="text" name="phone" id="phone" placeholder="012-345-6789">
+					<span id="phone_error">&nbsp;</span><br>      
+					
+				<label for="packageDeal">Package Deals (hold CTRL to multi-select):</label>
+					<select  multiple="multiple" multiple size="5" id="packageDeal">
+						<option value="">Select a Package Deal</option>
+						<option value="1">Package Deal #1</option>
+						<option value="2">Package Deal #2</option>
+						<option value="3">Package Deal #3</option>
+						<option value="4">Package Deal #4</option>
+						<option value="5">Package Deal #5</option>
+					</select>
+							<span id="deal_error"></span><br>
+							
+				<label>Contact me by:</label>         
+					<input type="radio" name="contact" id="text" value="text" checked>Text
+					<input type="radio" name="contact" id="email" value="email">Email
+					<input type="radio" name="contact" id="mobile" value="mobile">Mobile Phone
+						<br>
+						
+				<label for="comments">Comments:</label>
+					<textarea name="comments" id="comments" rows="5" cols="40"></textarea>
+						<br>
+
+<!--array on click-->
+				<input type="button" id="submit" value="Submit" onclick="listBoxResult();">
+				<input type="button" id="reset" value="Reset">
+			</form>
+
+<!--CONFIRMATION PAGE-->			
+			<section id="registration_result" class="hide">
+				<p>Congratulations! Your message has been sent.</br>
+					You'll receive more information shortly!</p>
+				<input type="button" id="back" value="Back">
+			</section>
+			
+			<footer> 
+					Hopeless Shots
+					<br />
+					<a href="index.html">Home</a> |
+					<a href="portfolio.html">Portfolio</a> |  
+					<a href="info.html">Information</a> 
+				</footer> 
+		</div>
+
+	</body>
+</html>

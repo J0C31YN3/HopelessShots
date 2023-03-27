@@ -1,0 +1,89 @@
+body 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 730px;
+    margin: 0 auto;
+}
+
+h2 
+{
+    font-size: 120%;
+    margin-bottom: .25em;
+}
+
+label 
+{
+    width: 10em;
+	display: inline-block;
+	text-align: right;
+}
+
+input, select 
+{
+    width: 20em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.error { color: red; }
+.show { display: block; }
+.hide { display: none; }
+
+input[type="checkbox"],[type="radio"] 
+{
+    width: 1em;
+}
+
+#registration_form span 
+{
+    color: red;
+	font-family: Ink Free;
+	font-weight: bold;
+}
+
+td 
+{
+	width: 9em;	
+}
+
+form
+{
+	border: 1px solid #888888;
+	box-shadow: 6px 6px 2px 0 #00ffff;
+	background-color: white;
+	opacity: .75;
+	border-radius: 15px;
+	width: 700px;
+	height: 450px;
+	margin: 30px 80px 30px 140px;
+	max-height: 500px;
+}
+
+p
+{
+	font-family: Ink Free;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	border: 1px solid #888888;
+	box-shadow: 6px 6px 2px 0 #00ffff;
+	background-color: black;
+	opacity: .75;
+	border-radius: 15px;
+	width: 700px;
+	height: 100px;
+	padding: 100px;
+}
+
+#p
+{
+	margin: 30px 80px 300px 150px;
+}
+
+#registration_result
+{
+	margin: 30px 80px 300px 100px;
+}

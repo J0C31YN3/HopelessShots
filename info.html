@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <meta charset="utf-8">
+		<title>Hopeless Shots</title>
+
+			<!-- 
+				Final Project, info
+				Your Name: Jocelyne Ronning
+				Today's Date: 10/7/20
+			-->
+			
+		<link rel="stylesheet" href="mainTemplate.css">
+		<link rel="stylesheet" type="text/css" href="slide_show.css"/>
+		<link rel="stylesheet" type="text/css" href="portfolio.css"/>
+		<script type="text/javascript" src="size.js"></script>
+
+
+	</head>
+
+	<body>
+		<div id="container"> 
+
+				<header> 
+					<h1>Information</h1>
+				</header>    
+					
+					<img 
+						class="profile"
+						src="images/profileHope.jpg" 
+						alt="Hope" 
+						height="15%"
+						width="15%"
+					/>
+					
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>|
+							<li><a href="portfolio.html">Portfolio</a></li>|
+							<li><a href="form.html">Contact Me</a></li>
+						</ul>
+					</nav>
+				
+				<article id="sizes">
+					<p>Please enter number of prints wanted for desired size then click "Calculate" to see an estimated total.</p>
+							</br>
+							
+					<label for="type">Picture Type:</label>
+						<select id="type">
+							<option value="extraSmall">2.5 x 3.5</option>
+							<option value="small">3.5 x 5</option>
+							<option value="medium">4 x 6</option>
+							<option value="large">5 x 7</option>
+							<option value="extraLarge">8 x 10</option>
+						</select>
+							</br>
+
+<!--USER INPUT FOR NUMBER OF PRINTS WANTED -->
+					<label for="prints">Number of Prints:</label>
+						<input type="text" id="prints"/>
+							</br>
+							
+						----------------------------------------------------------------<br>
+
+					<label for="pricePer">Print Price (for one):</label>
+						<input type="text" id="pricePer" disabled />
+							<br>
+
+					<label for="total">Total:</label>
+						<input type="text" id="total" disabled />
+							<br>
+				
+					<input type="button" id="calculate" value="Calculate">
+						</br></br>
+				</article>
+				
+				<footer> 
+					Hopeless Shots
+					<br/>
+					<a href="index.html">Home</a> | 
+					<a href="portfolio.html">Portfolio</a> | 
+					<a href="form.html">Contact Me</a> 
+				</footer> 
+<!-- end footer -->  
+
+		</div>
+<!-- end container --> 
+
+	</body>
+</html>
