@@ -63,10 +63,11 @@
 				<label for="phone">Phone Number:</label>
 					<input type="text" name="phone" id="phone" placeholder="012-345-6789">
 					<span id="phone_error">&nbsp;</span><br>      
-					
+				
+		<!-- added the "disabled" function to fix the bug on line 70 of being able to click on the placeholder value -->	
 				<label for="packageDeal">Package Deals (hold CTRL to multi-select):</label>
 					<select  multiple="multiple" multiple size="5" id="packageDeal">
-						<option value="">Select a Package Deal</option>
+						<option value="" disabled>Select a Package Deal</option>
 						<option value="1">Package Deal #1</option>
 						<option value="2">Package Deal #2</option>
 						<option value="3">Package Deal #3</option>
