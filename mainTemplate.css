@@ -25,10 +25,9 @@ img
 padding: 0;}
 				
 #container
-{
-/*width: 100%; */	
-	width: 930px;
-	margin: 10px auto;
+{	
+	max-width: 960px;
+	margin: 0 auto;
 	border: 1px solid #ccffff;
 	background-image: url(images/background.jpg);
 /*	background-image: cover; makes it so picture covers the whole background*/
