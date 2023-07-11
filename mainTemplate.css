@@ -146,7 +146,7 @@ h2
 footer 
 { 
 	color: white;
-	width: 910px;
+	width: auto;
 	margin: 0;
 	padding: 10px;
 	background-color: #008080;
