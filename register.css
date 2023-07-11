@@ -3,7 +3,9 @@ body
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 100%;
     background-color: white;
-    max-width: 960px;
+   /* SWITCHING THIS TO FIX CENTERING 7/7/23
+   width: 730px;*/
+	max-width: 960px;
     margin: 0 auto;
 }
 
