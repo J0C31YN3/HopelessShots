@@ -9,14 +9,14 @@ Home Screen:
 
 ![Home Screen](https://raw.githubusercontent.com/JocelyneRonning/HopelessShots/main/HopelessShots/HSHomeScreen.PNG)
 
-Information:
+Information Screen:
 
-![Information](https://raw.githubusercontent.com/JocelyneRonning/HopelessShots/main/HopelessShots/HSInfoScreen.PNG)
+![Information Screen](https://raw.githubusercontent.com/JocelyneRonning/HopelessShots/main/HopelessShots/HSInfoScreen.PNG)
 
-Portfolio:
+Portfolio Screen:
 
-![Portfolio](https://raw.githubusercontent.com/JocelyneRonning/HopelessShots/main/HopelessShots/HSPortfolioScreen.PNG)
+![Portfolio Screen](https://raw.githubusercontent.com/JocelyneRonning/HopelessShots/main/HopelessShots/HSPortfolioScreen.PNG)
 
-Contact:
+Contact Screen:
 
-![Contact](https://raw.githubusercontent.com/JocelyneRonning/HopelessShots/main/HopelessShots/HSContactScreen.PNG)
+![Contact Screen](https://raw.githubusercontent.com/JocelyneRonning/HopelessShots/main/HopelessShots/HSContactScreen.PNG)
